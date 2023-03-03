@@ -3,18 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
-/*
-  Section 3 (Flutter Basic)
-
-  Class --> disebut widget
-  1. MaterialApp --> widget ini berfungsi sebagai 
-  wadah kita dalam membuat tampilan aplikasi.
-  dianalogikan widget ini berfungsi sebagai papan kayu untuk melukis (wadahnya).
-
-  2. Scaffold --> diumpamakan sebagai canvas untuk melukisnya
-  
-*/
-
 void main() {
   runApp(MyApp());
 }
@@ -32,6 +20,18 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/*
+  Section 3 (Flutter Basic)
+
+  Class --> disebut widget
+  1. MaterialApp --> widget ini berfungsi sebagai 
+  wadah kita dalam membuat tampilan aplikasi.
+  dianalogikan widget ini berfungsi sebagai papan kayu untuk melukis (wadahnya).
+
+  2. Scaffold --> diumpamakan sebagai canvas untuk melukisnya
+  
+*/
 
 /*
   Step 1: Buat void main
