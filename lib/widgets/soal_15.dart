@@ -25,10 +25,10 @@ class Soal15 extends StatelessWidget {
             ),
           ],
         ),
-        body: Row(
+        body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Column(
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
@@ -65,7 +65,7 @@ class Soal15 extends StatelessWidget {
             FlutterLogo(
               size: 200,
             ),
-            Column(
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(

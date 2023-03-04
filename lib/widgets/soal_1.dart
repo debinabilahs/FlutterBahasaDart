@@ -27,7 +27,7 @@ class Soal1 extends StatelessWidget {
         child: Text(
           "Hello World",
           style: TextStyle(
-            fontSize: 75,
+            fontSize: 50,
           ),
         ),
       ),

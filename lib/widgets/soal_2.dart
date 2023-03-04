@@ -27,11 +27,11 @@ class Soal2 extends StatelessWidget {
         child: Text(
           "Hello World",
           style: TextStyle(
-              fontSize: 75,
-              fontStyle: FontStyle.italic,
-              decoration: TextDecoration.underline,
-              fontWeight: FontWeight.bold,
-              ),
+            fontSize: 50,
+            fontStyle: FontStyle.italic,
+            decoration: TextDecoration.underline,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );
