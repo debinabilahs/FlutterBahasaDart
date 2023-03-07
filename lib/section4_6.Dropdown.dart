@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/section3_1HelloWorld.dart.dart';
 
 void main() {
   runApp(MyApp());
