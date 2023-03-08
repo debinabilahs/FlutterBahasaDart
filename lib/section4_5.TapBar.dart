@@ -1,17 +1,6 @@
 /* Materi TapBar */
 import 'package:flutter/material.dart';
 
-/* 
-  TapBar Ini melakukan sebuah Text
-  Membuat => 1. Text Field Email
-             2. Text Field Password
-             3. Child Login
-             4. prefixIcon: Icon(Icons.email)
-             5. Bikin Watsap Sederhana
-             6. TapbarView
-             7. DefaultTabController
- */
-
 void main() {
   runApp(MyApp());
 }
@@ -37,7 +26,7 @@ class HomePage extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.teal,
-          title: Text("Whatsaap"),
+          title: Text("WhatsApp"),
           centerTitle: false,
           bottom: TabBar(
             tabs: [
@@ -79,3 +68,14 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+/* 
+  TapBar Ini melakukan sebuah Text
+  Membuat => 1. Text Field Email
+             2. Text Field Password
+             3. Child Login
+             4. prefixIcon: Icon(Icons.email)
+             5. Bikin Watsap Sederhana
+             6. TapbarView
+             7. DefaultTabController
+ */

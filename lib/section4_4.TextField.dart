@@ -1,6 +1,3 @@
-/* Materi Text Field */
-import 'package:flutter/material.dart';
-
 /* 
   ScrollField,
   Text Field Ini melakukan sebuah Text
@@ -9,6 +6,7 @@ import 'package:flutter/material.dart';
              3. Child Login
              4. prefixIcon: Icon(Icons.email)
  */
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,7 +28,6 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-/* Pecah Home Page */
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -48,7 +45,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Text Field Riski"),
+        title: Text("Text Field"),
         centerTitle: true,
       ),
       body: ListView(
@@ -59,7 +56,6 @@ class _HomePageState extends State<HomePage> {
 
             /* Buat Login Email */
             autocorrect: false,
-          
             keyboardType: TextInputType.emailAddress,
             textInputAction: TextInputAction.next,
             decoration: InputDecoration(
@@ -102,7 +98,8 @@ class _HomePageState extends State<HomePage> {
           SizedBox(height: 50),
           ElevatedButton(
             onPressed: () {
-              print("Login Dengan : EMAIL (${emailC.text}) & PASS (${passC.text})");
+              print(
+                  "Login Dengan : EMAIL (${emailC.text}) & PASS (${passC.text})");
             },
             child: Text("LOGIN"),
             style: ElevatedButton.styleFrom(

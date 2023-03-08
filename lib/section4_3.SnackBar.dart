@@ -1,10 +1,8 @@
-/* Materi SnackBar */
-import 'package:flutter/material.dart';
-
 /* 
     Melakukan Sebuah inisiasi SnackBar
     Untuk Menampilkan Notification
  */
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +19,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/* Di Pecah sebagai Home Page */
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -29,7 +26,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("SnackBar Riski"),
+        title: Text("SnackBar"),
         centerTitle: true,
       ),
       body: Center(
@@ -38,7 +35,7 @@ class HomePage extends StatelessWidget {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
                 content: Text(
-                  "Hapus Produk Behasil",
+                  "Hapus Produk Berhasil",
                   style: TextStyle(
                     color: Colors.black,
                   ),
